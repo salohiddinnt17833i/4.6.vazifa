@@ -40,6 +40,18 @@
 // }
 // threeFunction(10)
 
+//  4 masala
+
+// function fourFunction(num){
+//     let counter = 1;
+//     for(let i = 1; i <= num; i++){
+//         if(num % i == 0){
+//             counter += 1
+//         }
+//     }
+//     return counter
+// }
+// console.log(fourFunction(100));
 
 
 

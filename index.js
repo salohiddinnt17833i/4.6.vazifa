@@ -25,7 +25,7 @@
 //     }
 //     return max
 // }
-// console.log(oneFunction(12, 5, 11));
+// console.log(oneFunction(12, 50, 11));
 
 // 2 masala
 
@@ -34,25 +34,34 @@
 // function threeFunction(n = 10){
 //     let counter = 0;
 //     for(let i = 1; i <= n; i += 2){
-//         counter += 1;
+//         counter = counter += 1;
 //     }
-//     return counter
 // }
-// threeFunction(10)
-
 //  4 masala
 
 // function fourFunction(num){
 //     let counter = 1;
 //     for(let i = 1; i <= num; i++){
 //         if(num % i == 0){
-//             counter += 1
+//             counter++
 //         }
 //     }
 //     return counter
 // }
-// console.log(fourFunction(100));
+// console.log(fourFunction(10));
 
+// 5 masala
 
+// function fiveFunction(arg1) {
+//     let result;
+//     if (arg1 % 3 == 0 && arg1 % 5 == 0) {
+//         result = arg1 * 2;
+//     }else
+//     {
+//         result = arg1 ** 3;
+//     }
+//     return result
+// }
+// console.log(fiveFunction(16));
 
-
+//  6 masala
